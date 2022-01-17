@@ -8,7 +8,7 @@
             EndPoint = end;
         }
         public string BaseUrl { get; set; } = "https://habr.com/ru/all";
-        public string Prefix { get; set; } = "page1";
+        public string Prefix { get; set; } = "page{CurrentId}";
         public int Startpoint { get; set; }
         public int EndPoint { get; set; }
     }
